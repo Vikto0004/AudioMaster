@@ -157,9 +157,11 @@ a{
 .hero-list {
     display: flex;
     align-items: center;
+    gap: 24px;
 }
 
 .hero-item {
+    list-style: none;
 }
 
 .hero-item-link {
@@ -174,7 +176,6 @@ flex-direction: column;
 align-items: center;
 text-align: center;
 text-decoration: none;
-color: #0F0F0F;
 }
 
 .hero-item-icon {
