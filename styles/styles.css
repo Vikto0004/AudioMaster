@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    margin: 0 130px;
+    padding: 0 15px;
+}
+
+   /*----HEADER----*/
+
+.header{
+    background-color: #292929;
+    height: 50px;
+    flex-shrink: 0;
+}
+
+.header-container-top {
+    display: flex;
+    height: 50px;
+    align-items: center;
+}
+
+.header-top-list-logistick {
+    display: flex;
+    gap: 30px;
+    margin-right: 128px;
+}
+
+.header-logistick-item {
+}
+
+.header-item-link {
+    color: #FFF;
+    font-family: Gilroy;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.43; /* 142.857% */
+}
+
+.header-list {
+    display: flex;
+    gap: 30px;
+}
+
+.header-address {
+    display: flex;
+    margin-left: 46px;
+    align-items: center;
+    margin-right: auto;
+}
+
+.header-address-list {
+    display: flex;
+    gap: 30px;
+    margin-right: 36px;
+}
+
+.header-address-item{
+    display: flex;
+    align-items: center;
+}
+
+.header-address-link {
+    color: #FFF;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.43; /* 142.857% */
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.header-address-icon {
+}
+
+.header-button {
+    color: #FFF;
+    text-align: center;
+    font-family: Gilroy;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 5px;
+    background: #F6A700;
+    flex-shrink: 0;
+    border: none;
+    width: 150px;
+    height: 28px;
+}

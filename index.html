@@ -4,40 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./styles/styles.css">
 </head>
 <body>
-    <header>
-        <div>
-            <ul>
-                <li><a href="">Доставка</a></li>
-                <li><a href="">Оплата</a></li>
+    <header class="header">
+      <div class="container">
+        <div class="header-container-top">
+            <ul class="header-top-list-logistick">
+                <li class="header-logistick-item">
+                    <a class="header-item-link" href="">Доставка</a>
+                </li>
+                <li class="header-logistick-item">
+                    <a class="header-item-link" href="">Оплата</a>
+                </li>
             </ul>
-            <ul>
-                <li><a href="">Контакти</a></li>
-                <li><a href="">Новини</a></li>
-                <li><a href="">Установка</a></li>
+            <ul class="header-list">
+                <li>
+                    <a class="header-item-link" href="">Контакти</a>
+                </li>
+                <li>
+                    <a class="header-item-link" href="">Новини</a>
+                </li>
+                <li>
+                    <a class="header-item-link" href="">Установка</a>
+                </li>
             </ul>
-            <address>
-                <ul>
-                    <li>
-                        <a href="https://t.me/+3809393999998" target="_blank"> Telegram
-                            <svg width="24px" height="24px">
+            <address class="header-address">
+                <ul class="header-address-list">
+                    <li class="header-address-item">
+                        <a class="header-address-link" href="https://t.me/+3809393999998" target="_blank">
+                            <svg class="header-address-icon" width="24px" height="24px">
                                 <use href="./images/sprite.svg#icon-telegram"></use>
-                            </svg>
+                            </svg> Telegram
                         </a>
                     </li>
-                    <li>
-                        <a href="tel:+3809393999998" target="_blank">+380 (939) 399-99-98
-                            <svg>
-                                <use></use>
-                            </svg>
+                    <li class="header-address-item">
+                        <a class="header-address-link" href="tel:+3809393999998" target="_blank">
+                            <svg class="header-address-icon" width="24px" height="24px">
+                                <use href="./images/sprite.svg#icon-tel"></use>
+                            </svg>+380 (939) 399-99-98
                         </a>
                     </li>
                 </ul>
+                <button class="header-button">Зворотній звʼязок</button>
             </address>
         </div>
         <div></div>
         <div></div>
+      </div>
     </header>
 </body>
 </html>
