@@ -204,6 +204,9 @@ p{
 .hero-container-rectangle a{
     width: 100%;
     height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero-rectangle-icon{
@@ -244,8 +247,7 @@ text-decoration: none;
     fill: #FFF;
 }
 
-.hero-item-link:hover,
-.hero-item-icon:hover{
+.hero-item-link svg:hover{
     fill: #F6A700;
     color: #F6A700;
 }
