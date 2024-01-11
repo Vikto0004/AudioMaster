@@ -223,7 +223,7 @@ text-decoration: none;
     margin-bottom: 5px;
 }
 
-.hero-item-link,
+.hero-item-link:hover,
 .hero-item-icon:hover{
     fill: #F6A700;
     color: #F6A700;
