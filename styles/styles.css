@@ -223,12 +223,10 @@ text-decoration: none;
     margin-bottom: 5px;
 }
 
-.hero-item-link:hover{
-    color: #F6A700;
-}
-
+.hero-item-link,
 .hero-item-icon:hover{
     fill: #F6A700;
+    color: #F6A700;
 }
 
    /*----BENEFEAST----*/
