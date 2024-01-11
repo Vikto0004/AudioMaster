@@ -211,6 +211,7 @@ p{
 
 .hero-rectangle-icon{
     fill: #FFF;
+    margin: auto;
 }
 
 .hero-rectangle-icon:hover{
