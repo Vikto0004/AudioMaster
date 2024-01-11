@@ -221,6 +221,7 @@ text-decoration: none;
 
 .hero-item-icon {
     margin-bottom: 5px;
+    fill: #FFF;
 }
 
 .hero-item-link:hover,
