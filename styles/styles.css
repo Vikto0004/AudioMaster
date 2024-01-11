@@ -129,6 +129,10 @@ a{
     margin-left: 20px;
 }
 
+.hero-catalog-icon{
+    fill: #FFF;
+}
+
 .hero-catalog-link {
     color: #0F0F0F;
     font-family: Gilroy;
@@ -193,4 +197,30 @@ text-decoration: none;
 
 .hero-item-icon:hover{
     fill: #F6A700;
+}
+
+   /*----BENEFEAST----*/
+
+.benefeast {
+    background: #201F1F;
+    padding: 10px 0;
+}
+
+.benefeast-list {
+    display: flex;
+    gap: 93px;
+    margin-left: 60px;
+}
+
+.benefeast-link {
+    color: #FFF;
+    font-family: Gilroy;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.67; /* 166.667% */
+    text-transform: uppercase;
+}
+
+.benefeast-link:hover{
+    color: #F6A700;
 }
