@@ -108,6 +108,11 @@ a{
 
 .hero {
     background: #0F0F0F;
+    padding: 10px 0 13px 0;
+}
+
+.hero div{
+    align-items: center;
 }
 
 .hero-container-catalog{
@@ -121,6 +126,7 @@ a{
     background: #F6A700;
     border-radius: 6px;
     border: none;
+    margin-left: 20px;
 }
 
 .hero-catalog-link {
@@ -137,6 +143,7 @@ a{
     flex-shrink: 0;
     border-radius: 8px;
     border: 1px solid #FFF;
+    margin-left: 20px;
 }
 
 .hero-container-rectangle {
@@ -155,6 +162,7 @@ a{
     display: flex;
     align-items: center;
     gap: 24px;
+    margin-left: 30px;
 }
 
 .hero-item {
@@ -177,4 +185,12 @@ text-decoration: none;
 
 .hero-item-icon {
     margin-bottom: 5px;
+}
+
+.hero-item-link:hover{
+    color: #F6A700;
+}
+
+.hero-item-icon:hover{
+    fill: #F6A700;
 }
