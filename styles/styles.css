@@ -356,7 +356,12 @@ text-decoration: none;
     gap: 90px;
 }
 
+.choice-top-item{
+    display: flex;
+}
+
 .choice-top-icon {
+    margin-right: 4px;
 }
 
 .choice-top-text {
@@ -371,6 +376,14 @@ text-decoration: none;
 }
 
 .choice-top-title {
+    color: #000;
+    font-family: Gilroy;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 0.78; /* 77.778% */
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
 }
 
 .choice-middle-list {
