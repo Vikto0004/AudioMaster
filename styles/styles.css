@@ -340,3 +340,65 @@ text-decoration: none;
     font-weight: 600;
     line-height: normal;
 }
+
+   /*CHOICE*/
+
+.choice {
+    background: #FFF;
+}
+
+.choice div{
+    display: block;
+}
+
+.choice-top-list {
+    display: flex;
+    gap: 90px;
+}
+
+.choice-top-icon {
+}
+
+.choice-top-text {
+    width: 245px;
+    height: 56px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Gilroy;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.choice-top-title {
+}
+
+.choice-middle-list {
+}
+
+.choice-middle-link {
+}
+
+.choice-through-list {
+}
+
+.choice-through-link {
+}
+
+.choice-through-title {
+}
+
+.choice-through-text {
+}
+
+.container-experts {
+}
+
+.experts {
+}
+
+.experts-title {
+}
+
+.experts-text {
+}
