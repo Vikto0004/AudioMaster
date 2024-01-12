@@ -454,13 +454,133 @@ line-height: 22px;
 }
 
 .container-experts {
+    display: flex;
 }
 
-.experts {
+.container-experts div{
+    display: block;
 }
 
-.experts-title {
+   /*----BETTER----*/
+
+.better {
 }
 
-.experts-text {
+.better-conntainer {
+    display: block;
+}
+
+.better-conntainer-top {
+    display: flex;
+    margin-top: 70px;
+}
+
+.better-top-title {
+    color: #000;
+    font-family: Gilroy;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.better-top-text {
+    color: #000;
+    font-family: Gilroy;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 13px;
+}
+
+.better-middle-container {
+    display: flex;
+    background-color: #3C3C3C;
+    position: relative;
+    height: 164px;
+    border-radius: 10px;
+    margin-top: 100px;
+}
+
+.better-middle-container img{
+    position: absolute;
+    top: -30px;
+    left: 60px;
+}
+
+.better-middle-title {
+    color: #FFF;
+    font-family: Gilroy;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.better-middle-title span{
+    color: #F6A700;
+    font-family: Gilroy;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.better-middle-text {
+    color: #FFF;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+    width: 459px;
+    margin-top: 12px;
+}
+
+.better-middle-container div{
+    margin: 43px auto auto 402px;
+}
+
+.better-middle-list {
+    display: flex;
+    gap: 15px;
+    margin-right: 60px;
+}
+
+.better-middle-item{
+    display: flex;
+    align-items: center;
+}
+
+.better-through-container {
+    display: flex;
+    margin-top: 76px;
+}
+
+.better-through-title {
+    color: #000;
+    font-family: Gilroy;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.better-through-text {
+    color: #000;
+    font-family: Gilroy;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px; /* 135% */
+}
+
+.better-through-text span{
+    color: #000;
+    font-family: Gilroy;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    width: 819px;
+}
+
+.better-list {
+}
+
+.better-list-text {
+}
+
+.better-list-paragraph {
 }
