@@ -249,7 +249,7 @@ text-decoration: none;
     fill: #FFF;
 }
 
-.hero-item-link svg:hover{
+.hero-item-link:hover{
     fill: #F6A700;
     color: #F6A700;
 }
