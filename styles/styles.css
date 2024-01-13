@@ -424,7 +424,7 @@ text-decoration: none;
 }
 
 .choice-through-list li:hover{
-    box-shadow: 8px 8px 31px -6px rgba(66, 68, 90, 1);
+    box-shadow: 8px 8px 20px -6px rgba(66, 68, 90, 1);
 }
 
 .choice-through-link {
@@ -598,7 +598,7 @@ line-height: 22px;
 }
 
 .better-list li:hover{
-    box-shadow: 8px 8px 31px -6px rgba(66, 68, 90, 1);
+    box-shadow: 8px 8px 19px -6px rgba(66, 68, 90, 1);
     border-radius: 8px;
 }
 
@@ -622,29 +622,26 @@ line-height: 22px;
 
 .better-list-text {
     color: #000;
-font-family: Gilroy;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: 18px; /* 128.571% */
+    font-family: Gilroy;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px; /* 128.571% */
 }
 
 .better-list-paragraph {
     color: #696969;
-font-family: Gilroy;
-font-size: 14px;
-font-style: normal;
-font-weight: 300;
-line-height: normal;
+    font-family: Gilroy;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: normal;
 }
 
 .better-list h4{
     color: #000;
-font-family: Gilroy;
-font-size: 20px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
+    font-family: Gilroy;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
 }
 
 .better-list >li > ul{
@@ -661,6 +658,14 @@ line-height: normal;
     background: #F6A700;
     box-shadow: none;
     padding: 0;
+}
+
+.better-list > li > ul li:first-child:hover{
+    background-color: #d09516;
+}
+
+.better-list > li > ul li:first-child svg{
+    fill: #FFF;
 }
 
 .better-list > li > ul > li{
