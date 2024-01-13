@@ -896,3 +896,11 @@ line-height: 22px;
 .labor-list li:nth-child(5){
     background-image: url(../images/Labor/img-5.png);
 }
+
+.labor-list-icon{
+    fill: #FFF;
+}
+
+.labor-list-icon:hover{
+    fill: #F6A700;
+}
