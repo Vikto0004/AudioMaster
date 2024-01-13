@@ -847,6 +847,7 @@ line-height: 22px;
    /*----LABOR----*/
 
 .labor {
+    padding-bottom: 75px;
 }
 
 .labor-container {
@@ -907,4 +908,64 @@ line-height: 22px;
 
 .labor-list-icon:hover{
     fill: #F6A700;
+}
+
+   /*----FOOTER----*/
+
+.footer {
+    background-color: #201F1F;
+}
+
+.footer-container {
+}
+
+.container {
+}
+
+.footer-container-first {
+}
+
+.footer-first-title {
+}
+
+.footer-first-text {
+}
+
+.footer-first-schedule {
+}
+
+.footer-first-soc {
+}
+
+.footer-first-list {
+}
+
+.footer-first-link {
+}
+
+.footer-container-second {
+}
+
+.footer-title {
+}
+
+.footer-second-list {
+}
+
+.footer-container-third {
+}
+
+.footer-third-list {
+}
+
+.footer-container-fourth {
+}
+
+.footer-fourth-list {
+}
+
+.footer-container-fifth {
+}
+
+.footer-fifth-list {
 }
