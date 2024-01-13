@@ -160,7 +160,11 @@ p{
 }
 
 .hero-catalog-icon{
-    fill: #FFF;
+    fill: #0F0F0F;
+}
+
+.hero-container-catalog:hover .hero-catalog-icon{
+    fill: #F6A700;
 }
 
 .hero-catalog-link {
