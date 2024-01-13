@@ -588,6 +588,7 @@ line-height: 22px;
     gap: 22px;
     display: flex;
     justify-content: space-between;
+    margin-top: 70px;
 }
 
 .better-list li {
@@ -691,4 +692,105 @@ line-height: 22px;
 
 .better-list > li > ul > li > a{
     height: 22px;
+}
+
+.better-categories-container{
+    display: flex;
+    margin-top: 30px;
+}
+
+.better-categories{
+    color: #23A1D1;
+    font-family: Gilroy;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 27px; /* 192.857% */
+}
+
+   /*----PRODUCER----*/
+
+.producer {
+    padding: 70px 0;
+}
+
+.producer-container {
+    display: block;
+}
+
+.producer-list {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap; 
+    gap: 50px;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.producer-list li{
+    width: calc((100% - 400px) / 5);
+    border: transparent solid 2px;
+    border-radius: 8px;
+    transition: box-shadow 500ms cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 10px;
+}
+
+.producer-list li:hover{
+    box-shadow: 8px 8px 20px -6px rgba(66, 68, 90, 1);   
+}
+
+.producer-list li > a{
+    width: 100%;
+    height: 100%;
+}
+
+.producer-container-middle{
+    margin-top: 25px;
+}
+
+.producer-container-link{
+    color: #23A1D1;
+    font-family: Gilroy;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 27px; /* 192.857% */
+}
+
+.producer-container-bottom {
+    display: flex;
+    margin-top: 70px;
+}
+
+.producer-container-title {
+    color: #000;
+    font-family: Gilroy;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 0.78; /* 77.778% */
+}
+
+.producer-container-text {
+    color: #999;
+    font-family: Gilroy;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: normal;
+    width: 385px;
+    display: flex;
+    margin-top: 15px;
+}
+
+.producer-container-paragraph {
+    color: #000;
+    font-family: Gilroy;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.67; /* 166.667% */
+}
+
+.producer-container-paragraph span{
+    color: #000;
+    font-family: Gilroy;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
 }
