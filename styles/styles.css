@@ -664,6 +664,14 @@ line-height: 22px;
     background-color: #d09516;
 }
 
+.better-list > li > ul li:first-child a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .better-list > li > ul li:first-child svg{
     fill: #FFF;
 }
