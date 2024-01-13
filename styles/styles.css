@@ -551,6 +551,14 @@ line-height: 22px;
     align-items: center;
 }
 
+.better-middle-item > a > svg{
+    fill: #FFF;
+}
+
+.better-middle-item > a > svg:hover{
+    fill: #F6A700;
+}
+
 .better-through-container {
     display: flex;
     margin-top: 76px;
