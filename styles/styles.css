@@ -960,6 +960,15 @@ line-height: 22px;
 .footer-first-list {
     display: flex;
     justify-content: space-between;
+    margin-top: 20px;
+}
+
+.footer-icon{
+    fill: #DEDEDE;
+}
+
+.footer-icon:hover{
+    fill: #F6A700;
 }
 
 .footer-first-link {
