@@ -913,43 +913,78 @@ line-height: 22px;
    /*----FOOTER----*/
 
 .footer {
-    background-color: #201F1F;
+    background-color: #0F0F0F;
+    padding: 70px 0;
 }
 
 .footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer a{
+    color:#DEDEDE;
+}
+
+.footer a:hover{
+    color: #F6A700;
+}
+
+.footer p{
+    color: #DEDEDE;
 }
 
 .container {
 }
 
 .footer-container-first {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
 
 .footer-first-title {
 }
 
 .footer-first-text {
+    max-width: 160px;
 }
 
 .footer-first-schedule {
+    max-width: 160px;
 }
 
 .footer-first-soc {
 }
 
 .footer-first-list {
+    display: flex;
+    justify-content: space-between;
 }
 
 .footer-first-link {
 }
 
 .footer-container-second {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
 
 .footer-title {
+    color: #DEDEDE;
 }
 
 .footer-second-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.footer-list-item{
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }
 
 .footer-container-third {
